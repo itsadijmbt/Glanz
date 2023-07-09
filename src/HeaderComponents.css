@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+h2{
+  font-size: 1.2rem;
+  font-family: 'Italiana', serif;
+  transition: 0.2s;
+}
+h2:hover{
+letter-spacing: .2rem;
+}

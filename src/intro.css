@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.Intro-menu{
+z-index: 4;
+  display: flex;
+width: 100%;
+position: absolute;
+top: -2%;
+height: 22vh;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.intro-given{
+  font-size: 1.4rem;
+  font-family: 'Italiana', serif;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  margin-bottom: 3%;
+  color: white;
+  text-align: center;
+}
+.headings{
+  margin-top: 3%;
+  font-size: 2.8rem;
+  font-family: 'Italiana', serif;
+  font-weight:600;
+  letter-spacing: .2rem;
+  padding-bottom: .2rem;
+  color: white;
+ 
+  
+  
+}
+
+strong{
+  color: rgb(62, 163, 62)
+  ;
+}       
+@media (max-width:954px) {
+  
+  .headings{
+    font-size: 2.3rem;
+  }
+  .intro-given{
+    font-size: 1.2rem;
+  }
+  .Intro-menu{
+    height: 19vb;
+  }
+}
+@media (max-width:550px) {
+  .headings{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Italiana',serif;
+  }
+  .intro-given{
+    width: 95%;
+    font-size: .9rem;
+  }
+  .Intro-menu{
+    height: 10rem;
+  }
+}

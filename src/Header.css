@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+ 
+  width: 97%;
+  height: 4rem;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-family: 'Italiana', serif;
+  font-size: 3rem;
+width: 25%;
+
+  margin-left: 1%;
+}
+.GlzXAdi{
+
+color:  rgb(135, 222, 135) ;
+}
+.shopping-menu{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.cart_account{
+  font-family: 'Italiana', serif;
+width: 10%;
+display: flex;
+justify-content: space-around;
+}
+
+.hamburger{
+display: none;
+}
+.header-menu{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+@media (max-width:950px) {
+  .logo{
+   margin-left: 0rem;
+    text-align: center;
+  }
+  
+  .shopping-menu{
+    display: none;
+  }
+  .cart_account{
+  
+    width: 20%;
+  }
+  .hamburger{
+
+    background-image: url(./images/arrows_hamburger_2_40392.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+     padding-left: 13%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 9%;
+  }
+}

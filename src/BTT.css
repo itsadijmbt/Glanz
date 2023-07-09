@@ -1,0 +1,45 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.btn{
+  display: block;
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 5rem;
+}
+.button{
+  border-radius: 3rem;
+  border: none;
+  width: 7rem;
+  height: 3rem;
+  color: rgb(7,164,7);
+  border: .2rem solid  rgb(7,164,7);
+  filter:drop-shadow(0rem 1rem .6rem rgba(34, 139, 34, 0.66));
+  animation: updown;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  font-family: 'Italiana';
+  font-weight: 700;
+}
+@keyframes updown {
+  
+  0%{
+    transform: translateY(0%);
+  }
+  50%{
+    transform: translateY(-10%);
+  }
+  100%{
+    
+    transform: translateY(0%);
+  }
+}
+.button:active
+{
+  transform: translateY(8%);
+  filter:drop-shadow(0rem .8rem .2rem rgba(34, 139, 34, 0.66));
+}
